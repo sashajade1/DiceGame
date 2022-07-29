@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+
+*{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #dicegame {
+    display: flex;
+color: white;
+justify-content: center;
+text-shadow: 2px 2px rgb(35, 178, 140);
+  }
+  
+p{
+  padding: 10px;
+    display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 1vw;
+text-shadow: 2px 2px rgba(255, 255, 255, 0.403);
+}
+
+
+
+
+h3{
+    display: flex;
+    color: white;
+    justify-content: flex-start;   
+}
+
+
+
+
+  #container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  h2 {
+   color: white;
+    font-size: 2vw;
+    border: 4px solid white;
+    animation: mymove 7s alternate infinite;
+    border-radius: 50px;
+
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+    opacity: 70%;
+  }
+  
+  @keyframes mymove {
+    50% {border-color:  black}
+  }
+
+
+
+
+  h4 {
+color: white;
+  display: flex;
+  justify-content: center;
+ 
+  }
+  
+  #topBox {
+    display: flex;
+ justify-content: center;
+    
+  }
+  
+  #bottomBox {
+    display: flex;
+   justify-content: center;
+
+  }
+  
+  #diceImage {
+    padding: 0.7vw;
+    height: 100px;
+    width: 100px;
+ display: block;
+  }
+  
+  #button, #playBtn {
+    width: 130px;
+    display: block;
+    height: 40px;
+    font-size: 1.2vw;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 2vw;
+    border-radius: 20px;
+    border: solid 20px border;
+   transition: border 1s linear;
+   border-color: rgb(27, 233, 178);
+   
+  }
+
+ 
+
+
+#button{
+  width: 90px;
+}
+
+#border-button:hover { border-width: 10px; }
+  
